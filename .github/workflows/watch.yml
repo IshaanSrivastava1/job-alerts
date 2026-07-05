@@ -2,7 +2,12 @@ name: job-watch
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    # Native GitHub cron, kept as a redundant backup. Reliable at this
+    # coarser interval (GitHub's scheduler drops most firings for
+    # high-frequency crons like */5, but 8-hourly is fine). The primary
+    # trigger is an external pinger (cron-job.org) calling the
+    # workflow_dispatch API below on the same 8h cadence.
+    - cron: "0 */8 * * *"
   workflow_dispatch:
 
 permissions:

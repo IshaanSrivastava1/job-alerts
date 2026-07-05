@@ -31,6 +31,7 @@ WEBHOOK = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
 # seen (prevents flooding when a new company is added to the watchlist).
 MAX_AGE_HOURS = float(os.environ.get("MAX_AGE_HOURS", "72"))
 MAX_ALERTS_PER_RUN = int(os.environ.get("MAX_ALERTS_PER_RUN", "12"))
+DAILY_ALERT_CAP = int(os.environ.get("DAILY_ALERT_CAP", "30"))
 DRY_RUN = os.environ.get("DRY_RUN", "") == "1"
 USER_AGENT = "job-alerts-watcher (personal job-search notifier; low frequency)"
 
@@ -356,12 +357,21 @@ def main():
 
     fresh_new.sort(key=lambda j: -(j["posted"].timestamp() if j["posted"] else 0))
 
+    today = now.strftime("%Y-%m-%d")
+    daily = state.get("_daily") or {}
+    if daily.get("date") != today:
+        daily = {"date": today, "count": 0}
+    remaining_today = max(0, DAILY_ALERT_CAP - daily.get("count", 0))
+    effective_cap = min(MAX_ALERTS_PER_RUN, remaining_today)
+
     sent = 0
     for job in fresh_new:
-        if sent >= MAX_ALERTS_PER_RUN:
-            post_discord({"username": "Job Watch", "content":
-                          "…and **%d** more new matches this run (raising the "
-                          "cap or check the repo log)." % (len(fresh_new) - sent)})
+        if sent >= effective_cap:
+            reason = ("daily cap of %d reached" % DAILY_ALERT_CAP
+                       if remaining_today <= sent else
+                       "per-run cap of %d reached" % MAX_ALERTS_PER_RUN)
+            print("  %d further match(es) suppressed this run (%s)"
+                  % (len(fresh_new) - sent, reason))
             break
         if "US" in job["regions"] and job.get("description") is None:
             if "_gh" in job:
@@ -370,12 +380,15 @@ def main():
             job["work_auth"] = work_auth_flag(job.get("description") or "")
         notify(job)
         sent += 1
+        daily["count"] = daily.get("count", 0) + 1
         time.sleep(1.2)
+
+    state["_daily"] = daily
 
     # Prune state entries not seen for 60 days (posting long gone).
     prune_before = (now - timedelta(days=60)).isoformat()
     for k in [k for k, v in state.items()
-              if v.get("last_seen", "") < prune_before]:
+              if k != "_daily" and v.get("last_seen", "") < prune_before]:
         del state[k]
 
     if not DRY_RUN:

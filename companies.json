@@ -1,0 +1,38 @@
+{
+  "greenhouse": {
+    "stripe": "Stripe",
+    "affirm": "Affirm",
+    "flexport": "Flexport",
+    "instacart": "Instacart",
+    "brex": "Brex",
+    "coinbase": "Coinbase",
+    "robinhood": "Robinhood",
+    "datadog": "Datadog",
+    "doordashusa": "DoorDash",
+    "airbnb": "Airbnb",
+    "pinterest": "Pinterest",
+    "lyft": "Lyft",
+    "faire": "Faire",
+    "klaviyo": "Klaviyo",
+    "hubspot": "HubSpot",
+    "samsara": "Samsara",
+    "reddit": "Reddit",
+    "mongodb": "MongoDB",
+    "duolingo": "Duolingo",
+    "asana": "Asana",
+    "geotab": "Geotab",
+    "hootsuite": "Hootsuite",
+    "flipp": "Flipp",
+    "tulip": "Tulip"
+  },
+  "lever": {
+    "spotify": "Spotify",
+    "palantir": "Palantir",
+    "kraken": "Kraken",
+    "plaid": "Plaid",
+    "voleon": "Voleon",
+    "mistplay": "Mistplay",
+    "achievers": "Achievers",
+    "wealthsimple": "Wealthsimple"
+  }
+}

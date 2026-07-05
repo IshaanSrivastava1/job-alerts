@@ -7,8 +7,6 @@ Sources:
     automated read access.
   - Lever public postings API (api.lever.co/v0/postings) - permitted for
     automated read access.
-  - JP Morgan Chase via Oracle Recruiting Cloud's public candidate-experience
-    REST API (the same unauthenticated API their careers site serves).
 
 Never touches LinkedIn or Indeed. Never submits applications.
 """
@@ -247,66 +245,6 @@ def fetch_lever(token, name):
         }
 
 
-JPMC_BASE = "https://jpmc.fa.oraclecloud.com/hcmRestApi/resources/latest"
-JPMC_SITE = "CX_1001"
-
-
-def fetch_jpmc():
-    url = (JPMC_BASE + "/recruitingCEJobRequisitions?onlyData=true"
-           "&expand=requisitionList.secondaryLocations"
-           "&finder=findReqs;siteNumber=%s,keyword=analyst,"
-           "sortBy=POSTING_DATES_DESC,limit=100,offset=0" % JPMC_SITE)
-    data = get_json(url)
-    items = data.get("items", [])
-    reqs = items[0].get("requisitionList", []) if items else []
-    for r in reqs:
-        title = r.get("Title", "")
-        if not TITLE_RE.search(title):
-            continue
-        locs = [r.get("PrimaryLocation") or ""]
-        locs += [s.get("Name", "") for s in (r.get("secondaryLocations") or [])]
-        matched, regions = classify_locations(locs)
-        if not regions:
-            continue
-        # PostedDate is date-only (midnight UTC); credit a full day of slack
-        # in the freshness check so day-of postings aren't unfairly aged.
-        posted = parse_iso(r.get("PostedDate"))
-        rid = r.get("Id")
-        yield {
-            "key": "jpmc:%s" % rid,
-            "source": "JPMC Careers",
-            "company": "JPMorgan Chase",
-            "title": title,
-            "locations": matched,
-            "regions": regions,
-            "posted": posted,
-            "url": ("https://jpmc.fa.oraclecloud.com/hcmUI/"
-                    "CandidateExperience/en/sites/%s/job/%s" % (JPMC_SITE, rid)),
-            "_jpmc": rid,
-            "posted_slack_h": 24,
-            "description": None,
-        }
-
-
-def jpmc_description(rid):
-    try:
-        url = (JPMC_BASE + "/recruitingCEJobRequisitionDetails?onlyData=true"
-               "&expand=all&finder=ById;siteNumber=%s,Id=%%22%s%%22"
-               % (JPMC_SITE, rid))
-        d = get_json(url)
-        items = d.get("items", [])
-        if not items:
-            return ""
-        it = items[0]
-        return " ".join(str(it.get(k) or "") for k in (
-            "ExternalDescriptionStr", "ExternalQualificationsStr",
-            "ExternalResponsibilitiesStr", "CorporateDescriptionStr",
-            "OrganizationDescriptionStr", "ShortDescriptionStr"))
-    except Exception as e:
-        print("  warn: jpmc detail %s: %s" % (rid, e))
-        return ""
-
-
 # --- Discord ---------------------------------------------------------------
 
 def post_discord(payload):
@@ -333,7 +271,6 @@ def post_discord(payload):
 
 
 def notify(job):
-    is_jpmc = job["company"] == "JPMorgan Chase"
     fields = [
         {"name": "Company", "value": job["company"], "inline": True},
         {"name": "Location", "value": "; ".join(job["locations"])[:1000] or "?",
@@ -346,15 +283,13 @@ def notify(job):
         fields.append({"name": "Work authorization (US)",
                        "value": job["work_auth"], "inline": False})
     embed = {
-        "title": ("🔥 HIGH PRIORITY — " if is_jpmc else "") + job["title"][:230],
+        "title": job["title"][:230],
         "url": job["url"],
-        "color": 0xE74C3C if is_jpmc else 0x5865F2,
+        "color": 0x5865F2,
         "fields": fields,
         "footer": {"text": "via %s" % job["source"]},
     }
     payload = {"username": "Job Watch", "embeds": [embed]}
-    if is_jpmc:
-        payload["content"] = "🔥 **JPMorgan Chase posting — dream employer!**"
     status = post_discord(payload)
     print("  payload: %s" % json.dumps(payload, ensure_ascii=False))
     print("  notified (%s): %s @ %s [%s]"
@@ -402,11 +337,6 @@ def main():
             matches.extend(fetch_lever(token, name))
         except Exception as e:
             print("warn: lever %s failed: %s" % (token, e))
-    try:
-        matches.extend(fetch_jpmc())
-    except Exception as e:
-        print("warn: jpmc failed: %s" % e)
-
     print("total matching postings currently live: %d" % len(matches))
 
     fresh_new = []
@@ -424,9 +354,7 @@ def main():
             print("  seeding (too old to alert): %s @ %s (posted %s)"
                   % (job["title"], job["company"], job["posted"]))
 
-    # JPMC first: dream employer gets priority within the per-run cap.
-    fresh_new.sort(key=lambda j: (j["company"] != "JPMorgan Chase",
-                                  -(j["posted"].timestamp() if j["posted"] else 0)))
+    fresh_new.sort(key=lambda j: -(j["posted"].timestamp() if j["posted"] else 0))
 
     sent = 0
     for job in fresh_new:
@@ -438,8 +366,6 @@ def main():
         if "US" in job["regions"] and job.get("description") is None:
             if "_gh" in job:
                 job["description"] = greenhouse_description(*job["_gh"])
-            elif "_jpmc" in job:
-                job["description"] = jpmc_description(job["_jpmc"])
         if "US" in job["regions"]:
             job["work_auth"] = work_auth_flag(job.get("description") or "")
         notify(job)

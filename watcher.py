@@ -35,6 +35,19 @@ DAILY_ALERT_CAP = int(os.environ.get("DAILY_ALERT_CAP", "30"))
 DRY_RUN = os.environ.get("DRY_RUN", "") == "1"
 USER_AGENT = "job-alerts-watcher (personal job-search notifier; low frequency)"
 
+# --- Optional LLM fit scoring (Agent A) ------------------------------------
+# Scoring is strictly additive: if the dependency, the key, or the API is
+# missing, every alert still goes out exactly as it did before -- just without
+# a Fit field. Never let this break the pipeline.
+SCORING_ENABLED = os.environ.get("SCORING_ENABLED", "1") == "1"
+try:
+    import scorer
+except Exception as _scorer_err:  # noqa: BLE001 - missing dep is fine
+    scorer = None
+    _SCORER_IMPORT_ERROR = _scorer_err
+else:
+    _SCORER_IMPORT_ERROR = None
+
 TITLE_RE = re.compile(r"analyst", re.I)
 
 # --- Location matching ----------------------------------------------------
@@ -283,13 +296,26 @@ def notify(job):
     if "US" in job["regions"]:
         fields.append({"name": "Work authorization (US)",
                        "value": job["work_auth"], "inline": False})
+
+    # Agent A: fit score, if we managed to get one. Everything below degrades
+    # to exactly the old embed when job["fit"] is absent.
+    fit = job.get("fit")
+    if fit and scorer is not None:
+        fit_value = scorer.fit_field_value(fit)
+        if fit_value:
+            fields.append({"name": "Fit", "value": fit_value, "inline": False})
+
     embed = {
         "title": job["title"][:230],
         "url": job["url"],
-        "color": 0x5865F2,
+        "color": scorer.embed_color(fit) if scorer is not None else 0x5865F2,
         "fields": fields,
         "footer": {"text": "via %s" % job["source"]},
     }
+    if fit and scorer is not None:
+        flags = scorer.red_flag_text(fit)
+        if flags:
+            embed["description"] = flags
     payload = {"username": "Job Watch", "embeds": [embed]}
     status = post_discord(payload)
     print("  payload: %s" % json.dumps(payload, ensure_ascii=False))
@@ -322,6 +348,18 @@ def main():
         return 1
     with open(COMPANIES_PATH) as f:
         companies = json.load(f)
+
+    resume = None
+    if not SCORING_ENABLED:
+        print("fit scoring: disabled (SCORING_ENABLED=0)")
+    elif scorer is None:
+        print("fit scoring: off (scorer unavailable: %s)" % _SCORER_IMPORT_ERROR)
+    else:
+        try:
+            resume = scorer.load_resume()
+            print("fit scoring: on (model %s)" % scorer.agent_kit.MODEL)
+        except Exception as e:  # noqa: BLE001
+            print("fit scoring: off (could not read resume.md: %s)" % e)
 
     state = load_state()
     now = now_utc()
@@ -373,11 +411,25 @@ def main():
             print("  %d further match(es) suppressed this run (%s)"
                   % (len(fresh_new) - sent, reason))
             break
-        if "US" in job["regions"] and job.get("description") is None:
-            if "_gh" in job:
-                job["description"] = greenhouse_description(*job["_gh"])
+        # Fetch the description for every posting, not just US ones -- the
+        # scorer needs it, and GTA/Greenhouse matches previously never got one.
+        if job.get("description") is None and "_gh" in job:
+            job["description"] = greenhouse_description(*job["_gh"])
         if "US" in job["regions"]:
             job["work_auth"] = work_auth_flag(job.get("description") or "")
+
+        if resume is not None:
+            fit = scorer.score_job(job, resume)
+            if fit:
+                job["fit"] = fit
+                # Persist alongside the seen-state entry written above, so a
+                # re-run never re-pays for a score we already have.
+                entry = state.get(job["key"])
+                if entry is not None:
+                    entry["fit_score"] = fit["fit_score"]
+                    entry["fit_reason"] = fit["reason"]
+                print("  fit %d/10: %s" % (fit["fit_score"], fit["reason"]))
+
         notify(job)
         sent += 1
         daily["count"] = daily.get("count", 0) + 1

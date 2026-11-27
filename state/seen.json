@@ -1,7 +1,7 @@
 {
 "_daily": {
-"count": 4,
-"date": "2026-11-26"
+"count": 0,
+"date": "2026-11-27"
 },
 "greenhouse:adyen:8059340": {
 "company": "Adyen",
@@ -38,13 +38,13 @@
 "greenhouse:adyen:8331933": {
 "company": "Adyen",
 "first_seen": "2026-11-05T05:08:24.557158+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior CDD Risk Analyst, Direct Customer Onboarding"
 },
 "greenhouse:affirm:8039471003": {
 "company": "Affirm",
 "first_seen": "2026-10-22T03:19:07.538146+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Analyst, Early Career (Full Stack)"
 },
 "greenhouse:amplitude:8792292002": {
@@ -64,19 +64,19 @@
 "greenhouse:attentive:4463318009": {
 "company": "Attentive",
 "first_seen": "2026-10-24T03:18:27.885481+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "People Insights Analyst"
 },
 "greenhouse:attentive:4471774009": {
 "company": "Attentive",
 "first_seen": "2026-10-29T04:24:10.948619+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Legal Operations Analyst"
 },
 "greenhouse:billcom:6204385004": {
 "company": "Bill.com",
 "first_seen": "2026-09-22T19:33:56.381702+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Product Data Analyst - AP & Network Analytics"
 },
 "greenhouse:block:5098519008": {
@@ -100,7 +100,7 @@
 "greenhouse:block:5427849008": {
 "company": "Block (Square)",
 "first_seen": "2026-10-06T20:47:06.714566+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Business Systems Analyst, IT Vendor Operations"
 },
 "greenhouse:block:5439140008": {
@@ -118,31 +118,31 @@
 "greenhouse:block:5453346008": {
 "company": "Block (Square)",
 "first_seen": "2026-10-22T19:43:51.445250+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Analyst, Pricing & Monetization"
 },
 "greenhouse:block:5477220008": {
 "company": "Block (Square)",
 "first_seen": "2026-11-20T05:44:13.180026+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Staff Credit Policy Analyst, Data Scientist (Square Financial Services)"
 },
 "greenhouse:block:5480508008": {
 "company": "Block (Square)",
 "first_seen": "2026-11-21T05:39:26.139221+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Sourcing Security Assurance Analyst"
 },
 "greenhouse:block:5485146008": {
 "company": "Block (Square)",
 "first_seen": "2026-11-17T17:22:20.111412+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Sales Compensation Operations Analyst"
 },
 "greenhouse:block:5494600008": {
 "company": "Block (Square)",
 "first_seen": "2026-11-25T18:25:12.324717+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Model Risk Analyst, AI & Model Risk"
 },
 "greenhouse:braze:8173850": {
@@ -150,7 +150,7 @@
 "first_seen": "2026-09-09T03:06:31.751748+00:00",
 "fit_reason": "Sales Operations Analyst requiring 4+ years GTM/Sales Ops experience at B2B SaaS, based in NYC with no visa sponsorship mentioned for a non-US candidate, is a domain and seniority mismatch.",
 "fit_score": 2,
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Sales Operations Analyst"
 },
 "greenhouse:braze:8177766": {
@@ -174,7 +174,7 @@
 "greenhouse:braze:8237197": {
 "company": "Braze",
 "first_seen": "2026-10-26T20:53:11.615726+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Treasury Analyst"
 },
 "greenhouse:braze:8349984": {
@@ -186,13 +186,13 @@
 "greenhouse:braze:8403513": {
 "company": "Braze",
 "first_seen": "2026-11-23T19:49:42.591055+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Accounts Payable Analyst"
 },
 "greenhouse:braze:8412084": {
 "company": "Braze",
 "first_seen": "2026-11-23T19:49:42.591055+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Accounts Payable Analyst"
 },
 "greenhouse:brex:8463696002": {
@@ -228,25 +228,25 @@
 "greenhouse:brex:8924533002": {
 "company": "Brex",
 "first_seen": "2026-10-29T20:52:16.261430+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Analyst, Banking Operations (Domestic)"
 },
 "greenhouse:brex:8962934002": {
 "company": "Brex",
 "first_seen": "2026-11-26T06:52:40.622526+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Revenue Operations Senior Analyst"
 },
 "greenhouse:brex:8963004002": {
 "company": "Brex",
 "first_seen": "2026-11-26T06:52:40.622526+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Revenue Operations Senior Analyst"
 },
 "greenhouse:brex:8963006002": {
 "company": "Brex",
 "first_seen": "2026-11-26T06:52:40.622526+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Revenue Operations Senior Analyst"
 },
 "greenhouse:carta:7801778003": {
@@ -258,7 +258,7 @@
 "greenhouse:carta:7807641003": {
 "company": "Carta",
 "first_seen": "2026-07-17T02:29:07.623860+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Finance and Equity Analyst - Rotational Program"
 },
 "greenhouse:carta:7904721003": {
@@ -266,7 +266,7 @@
 "first_seen": "2026-08-19T20:00:25.134152+00:00",
 "fit_reason": "KYC/AML compliance analyst in Seattle requiring E-Verify (US work authorization) has zero overlap with his data/supply chain analyst background.",
 "fit_score": 1,
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Junior Inbound Compliance Analyst (KYC)"
 },
 "greenhouse:chime:8742766002": {
@@ -298,7 +298,7 @@
 "greenhouse:clutch:6212017004": {
 "company": "Clutch",
 "first_seen": "2026-09-30T20:32:05.970502+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Data Analyst"
 },
 "greenhouse:coursera:6219617004": {
@@ -310,13 +310,13 @@
 "greenhouse:d2l:7696196": {
 "company": "D2L",
 "first_seen": "2026-07-05T11:14:01.265642+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Bilingual Product Support Analyst (Canadian French)"
 },
 "greenhouse:d2l:7696232": {
 "company": "D2L",
 "first_seen": "2026-10-29T14:56:16.031240+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Product Support Analyst"
 },
 "greenhouse:databricks:8199399002": {
@@ -328,7 +328,7 @@
 "greenhouse:databricks:8414474002": {
 "company": "Databricks",
 "first_seen": "2026-07-05T11:14:01.265642+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Financial Analyst"
 },
 "greenhouse:databricks:8633071002": {
@@ -340,7 +340,7 @@
 "greenhouse:datadog:8002771": {
 "company": "Datadog",
 "first_seen": "2026-07-05T06:46:30.805235+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Financial Systems Analyst"
 },
 "greenhouse:datadog:8003080": {
@@ -372,7 +372,7 @@
 "greenhouse:datadog:8197674": {
 "company": "Datadog",
 "first_seen": "2026-09-21T20:15:26.752160+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Deal Desk Analyst"
 },
 "greenhouse:datadog:8202086": {
@@ -384,7 +384,7 @@
 "greenhouse:datadog:8204554": {
 "company": "Datadog",
 "first_seen": "2026-09-23T03:21:37.698244+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "FP&A Analyst"
 },
 "greenhouse:datadog:8204629": {
@@ -396,7 +396,7 @@
 "greenhouse:datadog:8231811": {
 "company": "Datadog",
 "first_seen": "2026-09-25T03:27:52.948209+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Business Systems Analyst"
 },
 "greenhouse:datadog:8237942": {
@@ -426,19 +426,19 @@
 "greenhouse:datadog:8267437": {
 "company": "Datadog",
 "first_seen": "2026-10-13T15:33:59.452841+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "FP&A Analyst, Cloud Finance"
 },
 "greenhouse:datadog:8312438": {
 "company": "Datadog",
 "first_seen": "2026-10-22T19:43:51.445250+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "FP&A Analyst GTM"
 },
 "greenhouse:datadog:8314268": {
 "company": "Datadog",
 "first_seen": "2026-10-29T04:24:10.948619+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Strategic Sourcing Analyst"
 },
 "greenhouse:datadog:8319487": {
@@ -520,7 +520,7 @@
 "greenhouse:figma:6215865004": {
 "company": "Figma",
 "first_seen": "2026-10-07T20:59:47.617659+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Business Systems Analyst"
 },
 "greenhouse:figma:6217137004": {
@@ -532,19 +532,19 @@
 "greenhouse:figma:6249978004": {
 "company": "Figma",
 "first_seen": "2026-11-11T04:43:58.085456+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Technical Operations & Insights Analyst"
 },
 "greenhouse:flexport:8011615": {
 "company": "Flexport",
 "first_seen": "2026-07-05T06:46:30.805235+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Analyst, Transportation & Supply Chain Strategy"
 },
 "greenhouse:flexport:8025116": {
 "company": "Flexport",
 "first_seen": "2026-08-24T20:00:29.961079+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Financial Analyst, North America Sales & Operations Finance"
 },
 "greenhouse:gusto:8075901": {
@@ -580,19 +580,19 @@
 "greenhouse:gusto:8212233": {
 "company": "Gusto",
 "first_seen": "2026-10-01T20:47:34.886064+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Sr. Sales Operations Analyst"
 },
 "greenhouse:gusto:8257482": {
 "company": "Gusto",
 "first_seen": "2026-11-04T21:45:11.279880+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "People Tech Business Systems Analyst"
 },
 "greenhouse:gusto:8263050": {
 "company": "Gusto",
 "first_seen": "2026-11-11T04:43:58.085456+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Lead CX Business Intelligence Analyst"
 },
 "greenhouse:gusto:8275011": {
@@ -610,7 +610,7 @@
 "greenhouse:gusto:8348189": {
 "company": "Gusto",
 "first_seen": "2026-11-06T21:15:20.543830+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Security Operations Analyst"
 },
 "greenhouse:hootsuite:8331544": {
@@ -628,7 +628,7 @@
 "greenhouse:instawork:4583589006": {
 "company": "Instawork",
 "first_seen": "2026-07-05T11:14:01.265642+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Product Operations Analyst"
 },
 "greenhouse:justworks:7939420": {
@@ -652,7 +652,7 @@
 "greenhouse:justworks:8265404": {
 "company": "Justworks",
 "first_seen": "2026-10-23T19:46:19.975490+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Financial Systems Analyst"
 },
 "greenhouse:justworks:8292657": {
@@ -664,7 +664,7 @@
 "greenhouse:justworks:8324732": {
 "company": "Justworks",
 "first_seen": "2026-10-27T20:25:20.639570+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Analyst, Workday Integrations"
 },
 "greenhouse:klaviyo:7718967003": {
@@ -716,13 +716,13 @@
 "greenhouse:klaviyo:8182739003": {
 "company": "Klaviyo",
 "first_seen": "2026-11-06T05:08:07.251612+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Customer Success Operations Analyst"
 },
 "greenhouse:klaviyo:8196940003": {
 "company": "Klaviyo",
 "first_seen": "2026-11-10T16:04:49.968853+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Lead Analyst, Strategic Finance & Analytics"
 },
 "greenhouse:lyft:8514422002": {
@@ -746,7 +746,7 @@
 "greenhouse:lyft:8662388002": {
 "company": "Lyft",
 "first_seen": "2026-08-10T20:00:19.044304+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Security Assurance Analyst"
 },
 "greenhouse:lyft:8697534002": {
@@ -758,7 +758,7 @@
 "greenhouse:lyft:8734166002": {
 "company": "Lyft",
 "first_seen": "2026-08-20T20:00:24.155012+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Analyst, Global Support Workforce Planning"
 },
 "greenhouse:lyft:8802198002": {
@@ -802,31 +802,31 @@
 "greenhouse:lyft:8916916002": {
 "company": "Lyft",
 "first_seen": "2026-11-03T05:22:57.622597+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Actuarial Analyst"
 },
 "greenhouse:lyft:8916976002": {
 "company": "Lyft",
 "first_seen": "2026-11-03T05:22:57.622597+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Actuarial Analyst"
 },
 "greenhouse:lyft:8916983002": {
 "company": "Lyft",
 "first_seen": "2026-11-03T05:22:57.622597+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Actuarial Analyst"
 },
 "greenhouse:lyft:8917063002": {
 "company": "Lyft",
 "first_seen": "2026-11-03T05:22:57.622597+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Actuarial Analyst"
 },
 "greenhouse:lyft:8936180002": {
 "company": "Lyft",
 "first_seen": "2026-11-11T04:43:58.085456+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Tax Analyst, Indirect Tax"
 },
 "greenhouse:mongodb:7557741": {
@@ -844,19 +844,19 @@
 "greenhouse:mongodb:8237572": {
 "company": "MongoDB",
 "first_seen": "2026-10-06T14:44:19.644526+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Financial Analyst"
 },
 "greenhouse:mongodb:8328622": {
 "company": "MongoDB",
 "first_seen": "2026-10-29T14:56:16.031240+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Financial Analyst, P&T"
 },
 "greenhouse:okta:7917957": {
 "company": "Okta",
 "first_seen": "2026-07-05T11:14:01.265642+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Staff Product Analyst"
 },
 "greenhouse:okta:8039368": {
@@ -868,7 +868,7 @@
 "greenhouse:okta:8159611": {
 "company": "Okta",
 "first_seen": "2026-08-28T20:00:34.592432+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Staff Product Analyst (Workday Payroll, Absence & Time Tracking)"
 },
 "greenhouse:okta:8159623": {
@@ -880,13 +880,13 @@
 "greenhouse:okta:8209281": {
 "company": "Okta",
 "first_seen": "2026-09-17T03:27:21.742483+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Payroll Analyst "
 },
 "greenhouse:okta:8213700": {
 "company": "Okta",
 "first_seen": "2026-09-25T19:49:10.691187+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Staff Product Analyst, Finance Technologies"
 },
 "greenhouse:okta:8231593": {
@@ -910,7 +910,7 @@
 "greenhouse:okta:8257554": {
 "company": "Okta",
 "first_seen": "2026-10-08T15:12:32.368848+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior AI Analyst, People Digital Solutions"
 },
 "greenhouse:okta:8299852": {
@@ -928,7 +928,7 @@
 "greenhouse:okta:8304288": {
 "company": "Okta",
 "first_seen": "2026-10-21T19:54:48.435803+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Data Analyst (Auth0)"
 },
 "greenhouse:okta:8328599": {
@@ -946,7 +946,7 @@
 "greenhouse:opentable:8606925002": {
 "company": "OpenTable",
 "first_seen": "2026-07-05T11:14:01.265642+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Sr. Analyst, Revenue Strategy & Operations"
 },
 "greenhouse:opentable:8692842002": {
@@ -958,7 +958,7 @@
 "greenhouse:opentable:8702798002": {
 "company": "OpenTable",
 "first_seen": "2026-10-05T16:47:33.110152+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Business Systems Analyst"
 },
 "greenhouse:opentable:8780286002": {
@@ -966,7 +966,7 @@
 "first_seen": "2026-09-09T19:04:22.579412+00:00",
 "fit_reason": "Senior title requiring 3+ years FP&A/corporate finance/consulting background, plus core finance domain rather than his supply chain/procurement data analytics experience.",
 "fit_score": 3,
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Financial Analyst (Hybrid)"
 },
 "greenhouse:opentable:8858125002": {
@@ -1056,13 +1056,13 @@
 "greenhouse:oscar:8281714": {
 "company": "Oscar Health",
 "first_seen": "2026-10-16T19:17:49.616141+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Sr. Analyst, Actuarial - Reserving"
 },
 "greenhouse:oscar:8286945": {
 "company": "Oscar Health",
 "first_seen": "2026-10-16T19:17:49.616141+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Actuarial Analyst"
 },
 "greenhouse:oscar:8289243": {
@@ -1092,7 +1092,7 @@
 "greenhouse:oscar:8303649": {
 "company": "Oscar Health",
 "first_seen": "2026-10-26T14:50:40.037132+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Analyst, Configuration"
 },
 "greenhouse:oscar:8314965": {
@@ -1104,25 +1104,25 @@
 "greenhouse:oscar:8324403": {
 "company": "Oscar Health",
 "first_seen": "2026-10-26T14:50:40.037132+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Analyst, Configuration"
 },
 "greenhouse:oscar:8379636": {
 "company": "Oscar Health",
 "first_seen": "2026-11-13T05:05:40.443889+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Analyst, Mergers and Acquisitions"
 },
 "greenhouse:oscar:8401126": {
 "company": "Oscar Health",
 "first_seen": "2026-11-19T05:55:38.935590+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Analyst, Payment Integrity"
 },
 "greenhouse:oscar:8401128": {
 "company": "Oscar Health",
 "first_seen": "2026-11-19T05:55:38.935590+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": " Senior Analyst, Payment Integrity"
 },
 "greenhouse:oura:4296738009": {
@@ -1134,19 +1134,19 @@
 "greenhouse:oura:4304779009": {
 "company": "Oura",
 "first_seen": "2026-07-05T11:14:01.265642+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Data Analyst, Hardware & Supply Chain"
 },
 "greenhouse:oura:4361913009": {
 "company": "Oura",
 "first_seen": "2026-08-15T01:05:44.445280+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Forecast Analyst Demand Planning "
 },
 "greenhouse:oura:4506567009": {
 "company": "Oura",
 "first_seen": "2026-11-18T05:55:29.690322+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Data Analyst, Hardware"
 },
 "greenhouse:peloton:8177500": {
@@ -1160,13 +1160,13 @@
 "greenhouse:peloton:8384619": {
 "company": "Peloton",
 "first_seen": "2026-11-18T05:55:29.690322+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Sr. Analyst, GTM Finance"
 },
 "greenhouse:pinterest:7507652": {
 "company": "Pinterest",
 "first_seen": "2026-10-09T20:32:48.870090+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Sales Finance Analyst II"
 },
 "greenhouse:reddit:8349881": {
@@ -1204,7 +1204,7 @@
 "first_seen": "2026-09-14T14:43:27.439862+00:00",
 "fit_reason": "Requires current full-time MBA enrollment and IB/PE/VC background, plus US-based in-person role for a 2027 internship, none of which fit Ishaan.",
 "fit_score": 1,
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Investment Analyst Intern (Summer 2027)"
 },
 "greenhouse:robinhood:8211233": {
@@ -1216,25 +1216,25 @@
 "greenhouse:robinhood:8379685": {
 "company": "Robinhood",
 "first_seen": "2026-11-13T05:05:40.443889+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Accounts Receivable Operations Analyst"
 },
 "greenhouse:roblox:7807813": {
 "company": "Roblox",
 "first_seen": "2026-10-09T20:32:48.870090+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Threat Intelligence Analyst, Safety Intelligence"
 },
 "greenhouse:roblox:8056346": {
 "company": "Roblox",
 "first_seen": "2026-07-16T02:26:25.164442+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Security GRC Analyst"
 },
 "greenhouse:roblox:8211789": {
 "company": "Roblox",
 "first_seen": "2026-09-19T03:09:47.896579+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Compensation Programs Senior Analyst"
 },
 "greenhouse:roblox:8260126": {
@@ -1246,19 +1246,19 @@
 "greenhouse:roblox:8332448": {
 "company": "Roblox",
 "first_seen": "2026-11-13T05:05:40.443889+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Data Analyst, Moderation Operations"
 },
 "greenhouse:samsara:8029100": {
 "company": "Samsara",
 "first_seen": "2026-11-21T05:39:26.139221+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Legal Analyst & Litigation Project Manager"
 },
 "greenhouse:samsara:8053880": {
 "company": "Samsara",
 "first_seen": "2026-11-05T05:08:24.557158+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Sales Operations Analyst"
 },
 "greenhouse:samsara:8167808": {
@@ -1308,7 +1308,7 @@
 "greenhouse:sofi:8017312003": {
 "company": "SoFi",
 "first_seen": "2026-10-19T20:52:23.998333+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Business Operations Analyst"
 },
 "greenhouse:sofi:8017316003": {
@@ -1358,19 +1358,19 @@
 "first_seen": "2026-09-11T03:01:58.858985+00:00",
 "fit_reason": "Requires 6+ years experience and Spark/Airflow proficiency, and US role with no sponsorship mention, all disqualifying for Ishaan's ~1 year experience.",
 "fit_score": 1,
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Data Analyst, NYC "
 },
 "greenhouse:stripe:8194287": {
 "company": "Stripe",
 "first_seen": "2026-10-01T20:47:34.886064+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Data Analyst, Intern"
 },
 "greenhouse:stripe:8194291": {
 "company": "Stripe",
 "first_seen": "2026-10-01T20:47:34.886064+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Data Analyst, Intern"
 },
 "greenhouse:stripe:8201680": {
@@ -1402,31 +1402,31 @@
 "greenhouse:stripe:8354560": {
 "company": "Stripe",
 "first_seen": "2026-11-11T22:28:03.676302+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Credit Operations Analyst"
 },
 "greenhouse:stripe:8354566": {
 "company": "Stripe",
 "first_seen": "2026-11-06T05:08:07.251612+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "AMER Data Analyst - Sales Strategy and Operations"
 },
 "greenhouse:stripe:8375966": {
 "company": "Stripe",
 "first_seen": "2026-11-19T05:55:38.935590+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Accounts Receivable Analyst"
 },
 "greenhouse:stripe:8397987": {
 "company": "Stripe",
 "first_seen": "2026-11-25T18:25:12.324717+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Finance & Strategy Analyst"
 },
 "greenhouse:stripe:8417785": {
 "company": "Stripe",
 "first_seen": "2026-11-26T06:52:40.622526+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Operations Insights, Business Partner Analyst"
 },
 "greenhouse:toast:8236782": {
@@ -1452,7 +1452,7 @@
 "greenhouse:verkada:5116424007": {
 "company": "Verkada",
 "first_seen": "2026-07-05T11:14:01.265642+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Sr. Analyst Business Systems  "
 },
 "lever:achievers:bb44e122-f74b-4c16-9e93-34e30672221e": {
@@ -1466,25 +1466,25 @@
 "lever:palantir:5174e95b-2e0a-46f8-8db7-e2c837a0ac94": {
 "company": "Palantir",
 "first_seen": "2026-07-05T06:46:30.805235+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Site Reliability Operations Analyst - Commercial"
 },
 "lever:palantir:5f3f9547-2aea-4ac2-995d-e8fa53b16e39": {
 "company": "Palantir",
 "first_seen": "2026-10-12T04:21:55.407474+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Operations Analyst - US Government Security"
 },
 "lever:palantir:7600fb76-e25e-418c-bf83-d2b1444f2dc6": {
 "company": "Palantir",
 "first_seen": "2026-11-21T05:39:26.139221+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Supply Chain Security Analyst"
 },
 "lever:palantir:773bb739-f011-4202-88d7-362a562df0d3": {
 "company": "Palantir",
 "first_seen": "2026-11-19T17:02:33.463942+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Site Reliability Operations Analyst - Legal"
 },
 "lever:palantir:7d91ca36-1e23-4603-b0f1-82a835e27d3f": {
@@ -1496,31 +1496,31 @@
 "lever:palantir:7dc7e7c3-39bf-4f4e-a8eb-e38a4a0af238": {
 "company": "Palantir",
 "first_seen": "2026-07-05T06:46:30.805235+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Mobility Tax Analyst"
 },
 "lever:palantir:b14585f4-9a68-49e8-97af-3f03f2a6c357": {
 "company": "Palantir",
 "first_seen": "2026-11-05T16:07:37.931997+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Operations Analyst - US Government"
 },
 "lever:palantir:b4d82318-0ad6-4730-9b6e-2c8676b2e768": {
 "company": "Palantir",
 "first_seen": "2026-11-17T06:34:10.588617+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Tax Analyst"
 },
 "lever:palantir:c6f9eaaf-b397-476f-8b7d-c511cfb7e5c6": {
 "company": "Palantir",
 "first_seen": "2026-10-14T19:57:55.775639+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Compliance Analyst"
 },
 "lever:palantir:d505f854-d339-448b-bf7e-46e2f32cff78": {
 "company": "Palantir",
 "first_seen": "2026-11-02T17:47:56.022657+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Sales Finance Operations Analyst"
 },
 "lever:spotify:17a75d93-835d-40ce-b31e-0c381b49f40a": {
@@ -1534,7 +1534,7 @@
 "lever:spotify:3dee8969-3910-4624-a401-45222202522c": {
 "company": "Spotify",
 "first_seen": "2026-11-25T00:20:08.162254+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Senior Analyst, Sales Strategy & Operations - North America"
 },
 "lever:spotify:8c8c3cfc-4156-4dad-bb6d-48266766e94a": {
@@ -1546,7 +1546,7 @@
 "lever:spotify:b24fe5e5-dcb2-4238-a883-5fdb6bd404db": {
 "company": "Spotify",
 "first_seen": "2026-11-18T16:56:16.977378+00:00",
-"last_seen": "2026-11-26T18:07:13.970990+00:00",
+"last_seen": "2026-11-27T06:45:14.288669+00:00",
 "title": "Accounting Analyst, Content Accounting"
 },
 "lever:spotify:ed409ff1-a241-4c2c-96ea-c988ca131671": {
